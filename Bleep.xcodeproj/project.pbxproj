@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		420E84842D98E04B00B775F5 /* BleepApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E84832D98E04B00B775F5 /* BleepApp.swift */; };
+		420E84862D98E04B00B775F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E84852D98E04B00B775F5 /* ContentView.swift */; };
+		420E84882D98E04D00B775F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420E84872D98E04D00B775F5 /* Assets.xcassets */; };
+		420E848B2D98E04D00B775F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420E848A2D98E04D00B775F5 /* Preview Assets.xcassets */; };
+		420E84952D98E04E00B775F5 /* BleepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E84942D98E04E00B775F5 /* BleepTests.swift */; };
+		420E849F2D98E04E00B775F5 /* BleepUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E849E2D98E04E00B775F5 /* BleepUITests.swift */; };
+		420E84A12D98E04E00B775F5 /* BleepUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E84A02D98E04E00B775F5 /* BleepUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		420E84912D98E04E00B775F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 420E84782D98E04B00B775F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 420E847F2D98E04B00B775F5;
+			remoteInfo = Bleep;
+		};
+		420E849B2D98E04E00B775F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 420E84782D98E04B00B775F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 420E847F2D98E04B00B775F5;
+			remoteInfo = Bleep;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		420E84802D98E04B00B775F5 /* Bleep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bleep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		420E84832D98E04B00B775F5 /* BleepApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleepApp.swift; sourceTree = "<group>"; };
+		420E84852D98E04B00B775F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		420E84872D98E04D00B775F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		420E848A2D98E04D00B775F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		420E84902D98E04E00B775F5 /* BleepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BleepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		420E84942D98E04E00B775F5 /* BleepTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleepTests.swift; sourceTree = "<group>"; };
+		420E849A2D98E04E00B775F5 /* BleepUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BleepUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		420E849E2D98E04E00B775F5 /* BleepUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleepUITests.swift; sourceTree = "<group>"; };
+		420E84A02D98E04E00B775F5 /* BleepUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleepUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		420E847D2D98E04B00B775F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		420E848D2D98E04E00B775F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		420E84972D98E04E00B775F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		420E84772D98E04B00B775F5 = {
+			isa = PBXGroup;
+			children = (
+				420E84822D98E04B00B775F5 /* Bleep */,
+				420E84932D98E04E00B775F5 /* BleepTests */,
+				420E849D2D98E04E00B775F5 /* BleepUITests */,
+				420E84812D98E04B00B775F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		420E84812D98E04B00B775F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				420E84802D98E04B00B775F5 /* Bleep.app */,
+				420E84902D98E04E00B775F5 /* BleepTests.xctest */,
+				420E849A2D98E04E00B775F5 /* BleepUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		420E84822D98E04B00B775F5 /* Bleep */ = {
+			isa = PBXGroup;
+			children = (
+				420E84832D98E04B00B775F5 /* BleepApp.swift */,
+				420E84852D98E04B00B775F5 /* ContentView.swift */,
+				420E84872D98E04D00B775F5 /* Assets.xcassets */,
+				420E84892D98E04D00B775F5 /* Preview Content */,
+			);
+			path = Bleep;
+			sourceTree = "<group>";
+		};
+		420E84892D98E04D00B775F5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				420E848A2D98E04D00B775F5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		420E84932D98E04E00B775F5 /* BleepTests */ = {
+			isa = PBXGroup;
+			children = (
+				420E84942D98E04E00B775F5 /* BleepTests.swift */,
+			);
+			path = BleepTests;
+			sourceTree = "<group>";
+		};
+		420E849D2D98E04E00B775F5 /* BleepUITests */ = {
+			isa = PBXGroup;
+			children = (
+				420E849E2D98E04E00B775F5 /* BleepUITests.swift */,
+				420E84A02D98E04E00B775F5 /* BleepUITestsLaunchTests.swift */,
+			);
+			path = BleepUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		420E847F2D98E04B00B775F5 /* Bleep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 420E84A42D98E04E00B775F5 /* Build configuration list for PBXNativeTarget "Bleep" */;
+			buildPhases = (
+				420E847C2D98E04B00B775F5 /* Sources */,
+				420E847D2D98E04B00B775F5 /* Frameworks */,
+				420E847E2D98E04B00B775F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bleep;
+			productName = Bleep;
+			productReference = 420E84802D98E04B00B775F5 /* Bleep.app */;
+			productType = "com.apple.product-type.application";
+		};
+		420E848F2D98E04E00B775F5 /* BleepTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 420E84A72D98E04E00B775F5 /* Build configuration list for PBXNativeTarget "BleepTests" */;
+			buildPhases = (
+				420E848C2D98E04E00B775F5 /* Sources */,
+				420E848D2D98E04E00B775F5 /* Frameworks */,
+				420E848E2D98E04E00B775F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				420E84922D98E04E00B775F5 /* PBXTargetDependency */,
+			);
+			name = BleepTests;
+			productName = BleepTests;
+			productReference = 420E84902D98E04E00B775F5 /* BleepTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		420E84992D98E04E00B775F5 /* BleepUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 420E84AA2D98E04E00B775F5 /* Build configuration list for PBXNativeTarget "BleepUITests" */;
+			buildPhases = (
+				420E84962D98E04E00B775F5 /* Sources */,
+				420E84972D98E04E00B775F5 /* Frameworks */,
+				420E84982D98E04E00B775F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				420E849C2D98E04E00B775F5 /* PBXTargetDependency */,
+			);
+			name = BleepUITests;
+			productName = BleepUITests;
+			productReference = 420E849A2D98E04E00B775F5 /* BleepUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		420E84782D98E04B00B775F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					420E847F2D98E04B00B775F5 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					420E848F2D98E04E00B775F5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 420E847F2D98E04B00B775F5;
+					};
+					420E84992D98E04E00B775F5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 420E847F2D98E04B00B775F5;
+					};
+				};
+			};
+			buildConfigurationList = 420E847B2D98E04B00B775F5 /* Build configuration list for PBXProject "Bleep" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 420E84772D98E04B00B775F5;
+			productRefGroup = 420E84812D98E04B00B775F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				420E847F2D98E04B00B775F5 /* Bleep */,
+				420E848F2D98E04E00B775F5 /* BleepTests */,
+				420E84992D98E04E00B775F5 /* BleepUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		420E847E2D98E04B00B775F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420E848B2D98E04D00B775F5 /* Preview Assets.xcassets in Resources */,
+				420E84882D98E04D00B775F5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		420E848E2D98E04E00B775F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		420E84982D98E04E00B775F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		420E847C2D98E04B00B775F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420E84862D98E04B00B775F5 /* ContentView.swift in Sources */,
+				420E84842D98E04B00B775F5 /* BleepApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		420E848C2D98E04E00B775F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420E84952D98E04E00B775F5 /* BleepTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		420E84962D98E04E00B775F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420E849F2D98E04E00B775F5 /* BleepUITests.swift in Sources */,
+				420E84A12D98E04E00B775F5 /* BleepUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		420E84922D98E04E00B775F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 420E847F2D98E04B00B775F5 /* Bleep */;
+			targetProxy = 420E84912D98E04E00B775F5 /* PBXContainerItemProxy */;
+		};
+		420E849C2D98E04E00B775F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 420E847F2D98E04B00B775F5 /* Bleep */;
+			targetProxy = 420E849B2D98E04E00B775F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		420E84A22D98E04E00B775F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		420E84A32D98E04E00B775F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		420E84A52D98E04E00B775F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bleep/Preview Content\"";
+				DEVELOPMENT_TEAM = 9CBG766WUX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = this.Bleep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		420E84A62D98E04E00B775F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bleep/Preview Content\"";
+				DEVELOPMENT_TEAM = 9CBG766WUX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = this.Bleep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		420E84A82D98E04E00B775F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CBG766WUX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = this.BleepTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bleep.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bleep";
+			};
+			name = Debug;
+		};
+		420E84A92D98E04E00B775F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CBG766WUX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = this.BleepTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bleep.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bleep";
+			};
+			name = Release;
+		};
+		420E84AB2D98E04E00B775F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CBG766WUX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = this.BleepUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bleep;
+			};
+			name = Debug;
+		};
+		420E84AC2D98E04E00B775F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CBG766WUX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = this.BleepUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bleep;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		420E847B2D98E04B00B775F5 /* Build configuration list for PBXProject "Bleep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420E84A22D98E04E00B775F5 /* Debug */,
+				420E84A32D98E04E00B775F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		420E84A42D98E04E00B775F5 /* Build configuration list for PBXNativeTarget "Bleep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420E84A52D98E04E00B775F5 /* Debug */,
+				420E84A62D98E04E00B775F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		420E84A72D98E04E00B775F5 /* Build configuration list for PBXNativeTarget "BleepTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420E84A82D98E04E00B775F5 /* Debug */,
+				420E84A92D98E04E00B775F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		420E84AA2D98E04E00B775F5 /* Build configuration list for PBXNativeTarget "BleepUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420E84AB2D98E04E00B775F5 /* Debug */,
+				420E84AC2D98E04E00B775F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 420E84782D98E04B00B775F5 /* Project object */;
+}
