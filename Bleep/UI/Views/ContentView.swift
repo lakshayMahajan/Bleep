@@ -1,7 +1,10 @@
 import SwiftUI
+import FamilyControls
 
 struct ContentView: View {
     @StateObject private var blockerState = AppBlockerState()
+    @State private var isShowingFamilyPicker = false
+    @State private var activitySelection = FamilyActivitySelection()
 
     var body: some View {
         VStack(spacing: 20) {
@@ -13,16 +16,18 @@ struct ContentView: View {
             Text(blockerState.isBlocking ? "Blocking ON" : "Blocking OFF")
                 .font(.title)
 
-            Button(action: {
+            Button("Select Apps to Block") {
+                isShowingFamilyPicker = true
+            }
+
+            Button("Toggle Blocking") {
                 AppBlockerManager.shared.toggleBlocking()
-            }) {
-                Text("Toggle Blocking")
-                    .padding()
-                    .background(Color.blue)
-                    .foregroundColor(.white)
-                    .cornerRadius(10)
             }
         }
         .padding()
+        .familyActivityPicker(isPresented: $isShowingFamilyPicker, selection: $activitySelection)
+        .onChange(of: activitySelection) { newSelection in
+            AppBlockerManager.shared.updateSelection(newSelection)
+        }
     }
 }
