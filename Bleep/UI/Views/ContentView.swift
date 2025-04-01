@@ -5,6 +5,8 @@ struct ContentView: View {
     @StateObject private var blockerState = AppBlockerState()
     @State private var isShowingFamilyPicker = false
     @State private var activitySelection = FamilyActivitySelection()
+    
+    private let nfcReader = NFCReader()
 
     var body: some View {
         VStack(spacing: 20) {
@@ -15,6 +17,10 @@ struct ContentView: View {
 
             Text(blockerState.isBlocking ? "Blocking ON" : "Blocking OFF")
                 .font(.title)
+
+            Button("Scan NFC Tag") {
+                nfcReader.beginScan()
+            }
 
             Button("Select Apps to Block") {
                 isShowingFamilyPicker = true
