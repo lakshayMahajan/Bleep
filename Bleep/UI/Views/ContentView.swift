@@ -1,5 +1,7 @@
 import SwiftUI
 import FamilyControls
+import ManagedSettings
+
 
 struct ContentView: View {
     @State private var isSetupComplete = false
@@ -73,6 +75,8 @@ struct ContentView: View {
         }
     }
 
+    // MARK: - NFC Toggle + App Re-Selection View
+
     private var nfcButtonView: some View {
         VStack(spacing: 20) {
             Button(action: {
@@ -89,6 +93,8 @@ struct ContentView: View {
                 .background(Color.bleepPrimary)
                 .cornerRadius(12)
             }
+
+            // ✅ Only show when not blocking
 
             if !blockerState.isBlocking {
                 Button(action: {
@@ -112,6 +118,9 @@ struct ContentView: View {
             AppBlockerManager.shared.updateSelection(newSelection)
         }
     }
+
+    // MARK: - Authorization Helper
+
 
     private func checkAuthorizationStatus(completion: @escaping (Bool) -> Void) {
         Task {
