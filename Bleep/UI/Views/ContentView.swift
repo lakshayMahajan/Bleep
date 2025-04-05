@@ -2,6 +2,7 @@ import SwiftUI
 import FamilyControls
 import ManagedSettings
 
+
 struct ContentView: View {
     @State private var isSetupComplete = false
     @StateObject private var blockerState = AppBlockerState()
@@ -42,8 +43,6 @@ struct ContentView: View {
             }
         }
     }
-
-    // MARK: - Setup View
 
     private var setupButtonsView: some View {
         VStack(spacing: 20) {
@@ -96,6 +95,7 @@ struct ContentView: View {
             }
 
             // ✅ Only show when not blocking
+
             if !blockerState.isBlocking {
                 Button(action: {
                     isShowingFamilyPicker = true
@@ -118,7 +118,9 @@ struct ContentView: View {
             AppBlockerManager.shared.updateSelection(newSelection)
         }
     }
+
     // MARK: - Authorization Helper
+
 
     private func checkAuthorizationStatus(completion: @escaping (Bool) -> Void) {
         Task {
